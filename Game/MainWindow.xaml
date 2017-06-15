@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="455.119" Width="842.747"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        KeyDown="OnKeyDownHandler">
+
+    <Canvas Background="GreenYellow"  Margin="0,323,0,-0.4">
+        <Image gif:ImageBehavior.AnimatedSource="mario.gif" Name="mario" Height="68" Canvas.Left="78" Canvas.Top="-74" Width="75" RenderTransformOrigin="0.5,0.5"/>
+
+    </Canvas>
 </Window>
